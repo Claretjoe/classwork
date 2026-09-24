@@ -4,7 +4,7 @@ header{
     background-color: blue;
     height: 6.6vh;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
 }
 .nav-links-text{
     margin-top: auto; 

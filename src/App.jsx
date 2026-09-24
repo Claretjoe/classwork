@@ -1,22 +1,23 @@
 import React from 'react'
-import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero'
-import About from './components/About/About'
-import Testimony from './components/Testimony/Testimony'
-import Cta from './components/Cta/Cta'
-import Footer from './components/Footer/Footer'
+import LandingPageScreen from './Screen/LandingPageScreen'
+import { Route, Routes } from 'react-router-dom'
+import Header from './components/Header/Header';
+import ContactUsPage from './Screen/ContactUsPage';
+import AboutUsPage from './Screen/AboutUsPage';
+import ServicesUsPage from './Screen/ServicesUsPage';
 
 
 
 function App() {
   return (
     <div className= "App">
-     <Header/>
-     <Hero/>
-     <About/>
-     <Testimony/>
-     <Cta/>
-     <Footer/>
+      <Header/>
+     <Routes>
+      <Route path="/" element={<LandingPageScreen/>}/>
+      <Route path="/ContactUsPage" element={<ContactUsPage/>}/>
+      <Route path="/AboutUsPage" element={<AboutUsPage/>}/>
+      <Route path="/ServicesUsPage" element={<ServicesUsPage/>} />        
+     </Routes>
       
   
 
