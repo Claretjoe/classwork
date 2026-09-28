@@ -1,5 +1,4 @@
 import React from 'react'
-
 import  Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
 import Testimony from '../components/Testimony/Testimony'

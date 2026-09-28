@@ -1,0 +1,129 @@
+/* Core Page Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .contact-page{
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-left: 50px;
+}
+
+/* Card Container */
+.login-container {
+    background: #ece9e9;
+    padding: 40px 10px;
+    /* margin-left: 100px; */
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(10, 2, 2, 0.1);
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+}
+
+/* Typography */
+.login-form h2 {
+    color: #333333;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.login-form p {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+/* Layout for Inputs */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Interactive States */
+.input-group input:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.15);
+}
+
+/* Flexbox layout for helper options */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+
+.remember-me {
+    color: #555555;
+    cursor: pointer;
+}
+
+.forgot-link {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Button Styling */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #0052a3;
+}
+
+/* Footer Link redirection */
+.signup-redirect {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-redirect a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-redirect a:hover {
+    text-decoration: underline;
+}

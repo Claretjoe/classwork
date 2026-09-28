@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Hero{
+  padding: 20px 10%;
+  color:white;
+  background: black;
+  text-align: center;
+}
+.Hero h1{
+  font-weight: 900;
+}
+.Hero p{
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.mission{
+  gap: 100px;
+  background-color: wheat;
+  color: black;
+  width: 100%;
+  border-radius: 8px;
+
+}
+.mission h2{
+  font-weight: 205px;
+  padding: 20px 5%;
+  font-style: oblique;
+}
+.mission p{
+  font-weight: 400;
+  padding: 5px 1%;
+  justify-content: space-between;
+}
+ .statistics {
+  background-color: wheat;
+  color: black;
+  border: 5px;
+   font-weight: 400;
+  padding: 5px 5%;
+  justify-content: space-between;
+  }
+  .statistics h2{
+    font-weight: 205px;
+  padding: 50px 1%;
+  font-style: oblique;
+  }
+.pillars{
+  background-color: #007bff;
+  color: white;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 15px;
+  justify-content: space-between;
+
+}
