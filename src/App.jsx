@@ -5,6 +5,9 @@ import Header from './components/Header/Header';
 import ContactUsPage from './Screen/ContactUsPage';
 import AboutUsPage from './Screen/AboutUsPage';
 import ServicesUsPage from './Screen/ServicesUsPage';
+import Login from './Screen/Login';
+import SignUp from './Screen/SignUp';
+
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Route path="/ContactUsPage" element={<ContactUsPage/>}/>
       <Route path="/AboutUsPage" element={<AboutUsPage/>}/>
       <Route path="/ServicesUsPage" element={<ServicesUsPage/>} />   
+      <Route path="/Login" element={<Login/>} />   
+      <Route path="/SignUp" element={<SignUp/>}/>
+
     
      </Routes>
       
